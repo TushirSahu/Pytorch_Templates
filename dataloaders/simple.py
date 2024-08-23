@@ -9,7 +9,7 @@ class PaintingsDataset(Dataset):
     __init__ args:          folder_path       :       path to folder with dataset images
                             transform         :       transform module from torchvision for data augmentation
                             __len__           :       number of images in dataset
-                            __get_item__      :       returns image at index idx tranformed
+                            __get_item__      :       returns image at index idx transformed
                             __get_crude_item_ :       returns image at index idx 
                             
                 
